@@ -1,0 +1,111 @@
+#main{
+    display: grid;
+    
+}
+#top{
+    display:grid;
+    grid-template-columns: 30% 30% 40%;
+    background-color: #8D005C;
+    /*border: solid;
+    border-width: 3px;
+    border-color: lightslategray;*/
+    border-radius: 10px;
+}
+.fab{
+    cursor:pointer;
+    padding: 2%;
+    border: solid;
+    border-radius: 100px;
+    margin-right: 0.5em;
+}
+
+#media{
+    margin-left: 7em;
+}
+#picture1{
+    align-self: flex-end;
+    margin-left: 5em;
+}
+#picture2{
+    
+    align-self: flex-end;
+}
+#start{
+    padding:30px;
+
+}
+.fab {
+    margin-left: 0.9em;
+    color: black;
+}
+
+.about{
+    /*background-color: #8D005C;*/
+    background-color: white;
+    color: lightslategray;
+    font-family:  Dekko, serif;
+    border: solid;
+    border-width: 3px;
+    border-color: lightslategray;
+    border-radius: 10px;
+}
+.team{
+    font-family: Kaushan Script, serif;
+    color: white;
+    margin-left: 3.5em;
+    font-size: 42px;
+    
+}
+.names{
+    color: white;
+    font-family: Cormorant Garamond, serif;
+    margin-left: 9em;
+    font-size: 19px;
+    
+}
+
+#bottom{
+    display:grid;
+    grid-template-columns: 50% 30% 20%;
+}
+#info1{
+    
+    margin-top: 2em;
+    margin-left: 50%;
+    font-family:  Arial Narrow;
+}
+#info2{
+    
+    margin-top:2em;
+    font-family:  Arial Narrow;
+
+}
+.first{
+    color:lightslategray;
+    
+}
+
+.second{
+    color: black;
+    position: relative;
+    
+}
+.button{
+    background-color: #8D005C;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 150px;
+    font-size: 20px;
+    border: solid;
+    border-radius: 10px;
+    border-color: lightslategray;
+    margin-left: 2em;
+    border-width:3px;
+    font-size: 13px;
+    font-family: Helvetica, sans-serif;
+    padding: 1%;
+}
+p{
+    font-family:  Dekko, serif;
+}
